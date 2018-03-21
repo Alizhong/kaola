@@ -1,0 +1,265 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.header {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #e8e8ea; }
+  .header .docHead {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto; }
+    .header .docHead .logokaola {
+      float: left;
+      cursor: pointer;
+      width: 207px;
+      height: 100px; }
+    .header .docHead .topImg {
+      width: 501px;
+      height: 100px;
+      float: right; }
+
+.login-banner {
+  width: 100%;
+  height: 520px;
+  background: #f8f8f8; }
+  .login-banner .loginBody {
+    position: relative;
+    width: 1000px;
+    height: 520px;
+    margin: 0 auto; }
+    .login-banner .loginBody .defaultIng {
+      position: absolute;
+      left: 10px;
+      top: 154px;
+      width: 400px;
+      height: 203px; }
+    .login-banner .loginBody .hotarea {
+      position: absolute;
+      left: 10px;
+      top: 109px;
+      width: 400px;
+      height: 280px; }
+    .login-banner .loginBody .loginWrap {
+      width: 350px;
+      border: 1px solid #eaeaea;
+      background-color: #fff;
+      position: absolute;
+      z-index: 2;
+      right: 40px;
+      top: 48px; }
+      .login-banner .loginBody .loginWrap .top {
+        width: 350px;
+        height: 52px;
+        border-bottom: 1px solid #ddd;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        line-height: 52px;
+        color: #333; }
+        .login-banner .loginBody .loginWrap .top .name {
+          float: left;
+          width: 175px;
+          text-align: center;
+          cursor: pointer;
+          font-weight: bold;
+          color: #e31436; }
+        .login-banner .loginBody .loginWrap .top .head2 {
+          color: #333; }
+        .login-banner .loginBody .loginWrap .top .line {
+          position: absolute;
+          top: 17px;
+          left: 175px;
+          width: 0px;
+          height: 20px;
+          border-right: solid 1px #ddd; }
+      .login-banner .loginBody .loginWrap .loginBox {
+        width: 270px;
+        height: 264px;
+        padding: 20px 40px 15px; }
+        .login-banner .loginBody .loginWrap .loginBox #login-form .inputBox {
+          position: relative;
+          width: 268px;
+          height: 34px;
+          border: 1px solid #c5cddb;
+          font-size: 12px; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .inputBox .Iphone {
+            position: absolute;
+            left: 5px;
+            top: 8px;
+            padding: 0 11px; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .inputBox .Inp {
+            width: 180px;
+            height: 30px;
+            padding-left: 50px;
+            font-size: 12px;
+            color: #666;
+            outline: 0;
+            border: 1px solid #fff; }
+        .login-banner .loginBody .loginWrap .loginBox #login-form .ncpt {
+          width: 268px;
+          height: 26.8px;
+          border: 1px solid #ddd;
+          border-radius: 13.4px;
+          background: #eee;
+          margin-top: 16px; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .ncpt .slid {
+            left: 1px; }
+            .login-banner .loginBody .loginWrap .loginBox #login-form .ncpt .slid img {
+              width: 60.3px;
+              height: 26.8px;
+              cursor: pointer; }
+        .login-banner .loginBody .loginWrap .loginBox #login-form .pcBox {
+          width: 268px;
+          height: 34px;
+          border: 1px solid #c5cddb;
+          margin-top: 16px; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .pcBox .autoComplete {
+            float: left;
+            width: 162px;
+            height: 30px;
+            border: 1px solid #fff;
+            font-size: 12px;
+            color: #dbdbdb;
+            padding-left: 7px;
+            padding-top: 2px; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .pcBox .tabfocus {
+            float: right;
+            width: 96px;
+            height: 34px;
+            border-left: 1px solid #d5d5d5;
+            background: #eeeeee;
+            font-size: 14px;
+            color: #333333;
+            text-align: center;
+            line-height: 34px; }
+        .login-banner .loginBody .loginWrap .loginBox #login-form .nerror {
+          width: 270px;
+          height: 17px;
+          margin: 6px 0;
+          display: none; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .nerror .icon-cuowu {
+            float: left;
+            font-size: 22px;
+            color: #ff5758; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .nerror .ferrHead {
+            float: left;
+            color: #fa5b5b;
+            font-size: 12px;
+            line-height: 20px; }
+        .login-banner .loginBody .loginWrap .loginBox #login-form .unlogin {
+          width: 270px;
+          height: 16px;
+          padding-bottom: 15px; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .unlogin .logn {
+            width: 104px;
+            height: 16px;
+            float: left; }
+            .login-banner .loginBody .loginWrap .loginBox #login-form .unlogin .logn .U-check {
+              float: left;
+              width: 14px;
+              height: 14px;
+              border: 1px solid #aaaaaa;
+              margin-right: 8px;
+              background: url(../images/wel.jpg) no-repeat; }
+            .login-banner .loginBody .loginWrap .loginBox #login-form .unlogin .logn .lab {
+              font-size: 12px;
+              color: #999999;
+              cursor: pointer; }
+              .login-banner .loginBody .loginWrap .loginBox #login-form .unlogin .logn .lab:hover {
+                color: #e31436; }
+        .login-banner .loginBody .loginWrap .loginBox #login-form .forget {
+          width: 62px;
+          height: 16px;
+          float: right; }
+          .login-banner .loginBody .loginWrap .loginBox #login-form .forget a {
+            font-size: 12px;
+            color: #999999; }
+            .login-banner .loginBody .loginWrap .loginBox #login-form .forget a:hover {
+              color: #e31436; }
+        .login-banner .loginBody .loginWrap .loginBox .bottom {
+          width: 270px;
+          height: 20px;
+          border-top: 1px solid #dddddd;
+          padding: 10px 40px; }
+          .login-banner .loginBody .loginWrap .loginBox .bottom .thirdlogin {
+            width: 160px;
+            height: 40px;
+            float: left; }
+            .login-banner .loginBody .loginWrap .loginBox .bottom .thirdlogin .thirdicon {
+              margin-right: 10px;
+              float: left;
+              line-height: 20px; }
+              .login-banner .loginBody .loginWrap .loginBox .bottom .thirdlogin .thirdicon .icon-weixin {
+                color: #92bc83;
+                font-size: 24px; }
+              .login-banner .loginBody .loginWrap .loginBox .bottom .thirdlogin .thirdicon .icon-zhifubao {
+                color: #79bdd7;
+                font-size: 20px; }
+              .login-banner .loginBody .loginWrap .loginBox .bottom .thirdlogin .thirdicon .icon-logo-weibo {
+                color: #eba265;
+                font-size: 23px; }
+              .login-banner .loginBody .loginWrap .loginBox .bottom .thirdlogin .thirdicon .icon-qq {
+                color: #87a9de;
+                font-size: 22px; }
+          .login-banner .loginBody .loginWrap .loginBox .bottom .gotoreg {
+            float: right;
+            width: 105px;
+            color: #e31436;
+            line-height: 22px;
+            cursor: pointer;
+            font-size: 14px;
+            cursor: pointer; }
+            .login-banner .loginBody .loginWrap .loginBox .bottom .gotoreg .con-arrow-right {
+              line-height: 20px;
+              font-size: 30px;
+              color: #e31436; }
+  .login-banner .newbig2 {
+    height: 195px;
+    display: none; }
+  .login-banner #nerror {
+    display: none; }
+  .login-banner .footer {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 14px;
+    color: #666; }
+    .login-banner .footer .about {
+      width: 100%;
+      height: 115px; }
+      .login-banner .footer .about a {
+        font-size: 14px;
+        color: #666666;
+        line-height: 26px; }
+        .login-banner .footer .about a:hover {
+          color: #999; }
+        .login-banner .footer .about a span {
+          font-size: 12px;
+          color: #999999;
+          line-height: 26px; }
+      .login-banner .footer .about .sep {
+        margin: 0 20px;
+        color: #666; }
+      .login-banner .footer .about .m-license {
+        font-size: 12px;
+        color: #999;
+        margin: 0 20px;
+        line-height: 26px; }
+        .login-banner .footer .about .m-license a {
+          color: #666; }
+      .login-banner .footer .about .f-tac {
+        height: 30px;
+        margin: 5px 15px 0 0; }
+      .login-banner .footer .about .tu {
+        width: 80px;
+        height: 30px; }
+      .login-banner .footer .about .pian {
+        width: 27px;
+        height: 30px; }

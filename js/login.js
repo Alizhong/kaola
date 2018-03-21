@@ -1,0 +1,43 @@
+//选项卡
+$(function(){
+	$("#autoId1").click(function(){
+		$("#autoId1").css("color","#e31436");
+		$("#autoId2").css("color","#333");
+		$(".newbig1").show().siblings(".newbig2").hide();
+	});
+	$("#autoId2").click(function(){
+		$("#autoId2").css("color","#e31436");
+		$("#autoId1").css("color","#333");
+		$(".newbig2").show().siblings(".newbig1").hide();
+	});
+});
+//手机验证
+$(function(){
+	$('.Inp').focus(function(){
+		$('.nerror').hide();
+	});
+	$('.Inp').blur(function(){
+		if($(this).val()==''){
+			$('.nerror').show();
+		}else if(cellPhone($(this).val())==false){
+			$('.nerror').show();
+		}else{
+			$('.nerror').hide();
+		}
+	});
+});
+//网易邮箱验证
+$(function(){
+	$('#wyi').focus(function(){
+		$('#nerror').hide();
+	});
+	$('#wyi').blur(function(){
+		if($(this).val()==''){
+			$('#nerror').show();
+		}else if(email($(this).val())==false){
+			$('#nerror').show();
+		}else{
+			$('#nerror').hide();
+		}
+	});
+});
